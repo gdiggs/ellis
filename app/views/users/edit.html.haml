@@ -1,0 +1,9 @@
+asdfasdf
+
+= form_for @user do |f|
+  %p= f.text_field :name, :placeholder => 'Name'
+  %p= f.text_field :email_address, :placeholder => 'Email address'
+  %p Provider: #{@user.provider.capitalize}
+  %p UID: #{@user.uid}
+  %p= f.submit
+

@@ -11,9 +11,7 @@
 /log/*.log
 /tmp
 
-/config/initializers/omniauth.rb
 *.swp
-
 *.rbc
 *.sassc
 .sass-cache
@@ -29,3 +27,5 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+
+/config/initializers/omniauth_dev.rb

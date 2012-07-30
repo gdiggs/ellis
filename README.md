@@ -13,7 +13,6 @@ Rails app to keep a catalog of anything
 ```bash
   $ gem install bundler
   $ bundle install
-  $ cp config/initializers/omniauth.rb.example config/initializers/omniauth.rb
 ```
 
 Then update the omniauth initializer with your app keys, set up the database.yml file, and run `rails server`.

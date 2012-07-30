@@ -8,6 +8,7 @@ gem 'sass'
 gem 'jquery-rails'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'dalli'
 
 
 # Gems used only for assets and not required

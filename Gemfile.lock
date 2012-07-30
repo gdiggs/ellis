@@ -31,6 +31,7 @@ GEM
     arel (3.0.2)
     builder (3.0.0)
     daemons (1.1.8)
+    dalli (1.0.5)
     erubis (2.7.0)
     eventmachine (0.12.10)
     execjs (1.4.0)
@@ -119,6 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dalli
   haml
   haml-rails
   jquery-rails

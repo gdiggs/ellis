@@ -5,6 +5,7 @@ Ellis::Application.routes.draw do
 
   # omniauth
   match '/auth/:provider/callback', :to => 'sessions#create'
+  match '/logout', :to => 'sessions#destroy'
 
   resources :users do
     member do

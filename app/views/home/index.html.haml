@@ -2,4 +2,8 @@
   %p Welcome #{current_user.name}!
   %p #{current_user.id} | #{current_user.email_address} | #{current_user.provider} | #{current_user.uid}
 - else
-  %a{ :href => '/auth/twitter' } Log in with Twitter
+  %p
+    To manage/add collections:
+  %p
+    %a{ :href => '/auth/twitter' }
+      %img{ :src => '/assets/sign-in-with-twitter.png' }

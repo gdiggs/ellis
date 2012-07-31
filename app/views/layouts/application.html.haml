@@ -2,6 +2,8 @@
 %html
   %head
     %title Ellis
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Fugaz+One', :rel => 'stylesheet', :type => 'text/css' }
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Metrophobic', :rel => 'stylesheet', :type => 'text/css' }
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -12,7 +14,16 @@
   - elsif flash[:error]
     .notification.error= flash[:error]
 
-  -# HEADER
+  .header
+    %h1
+      %a{ :href => root_url } ellis
+    - if logged_in?
+      .user-info
+        %p
+          %a{ :href => edit_user_url(current_user) }= current_user.name
+        %p
+          %a{ :href => '/logout' } log out
+
 
   .content
     = yield

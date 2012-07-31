@@ -4,7 +4,6 @@ class SessionsController < ApplicationController
     user = User.find_or_new_from_auth_info(auth_info)
 
     if user.new_record?
-      Rails.logger.debug("************ new user")
       user.save!
       self.current_user = user
       flash[:notice] = "User #{user.name} created"

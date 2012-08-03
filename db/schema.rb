@@ -11,7 +11,32 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120730022216) do
+ActiveRecord::Schema.define(:version => 20120803020332) do
+
+  create_table "collections", :force => true do |t|
+    t.integer  "user_id"
+    t.text     "title"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "items", :force => true do |t|
+    t.integer  "collection_id"
+    t.text     "field_0"
+    t.text     "field_1"
+    t.text     "field_2"
+    t.text     "field_3"
+    t.text     "field_4"
+    t.text     "field_5"
+    t.text     "field_6"
+    t.text     "field_7"
+    t.text     "field_8"
+    t.text     "field_9"
+    t.integer  "num_fields"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"

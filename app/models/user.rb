@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :collections
+
   validates_presence_of :provider, :uid, :name
 
   def self.find_or_new_from_auth_info(auth_info)

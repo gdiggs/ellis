@@ -8,7 +8,7 @@ gem 'sass'
 gem 'jquery-rails'
 gem 'omniauth'
 gem 'omniauth-twitter'
-
+gem 'activeadmin'
 
 # Gems used only for assets and not required
 # in production environments by default.

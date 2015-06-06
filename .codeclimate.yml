@@ -3,3 +3,5 @@ languages:
 engines:
   rubocop:
     enabled: true
+exclude_paths:
+  - "Gemfile*"

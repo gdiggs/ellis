@@ -1,7 +1,8 @@
-languages:
-  Ruby: true
 engines:
   rubocop:
+    enabled: false
+  eslint:
     enabled: true
 exclude_paths:
   - "Gemfile*"
+

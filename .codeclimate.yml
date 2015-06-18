@@ -3,6 +3,9 @@ engines:
     enabled: false
   eslint:
     enabled: true
-exclude_paths:
-  - "Gemfile*"
-
+  bundler-audit:
+    enabled: true
+ratings:
+  paths:
+    - "app/**"
+    - Gemfile.lock

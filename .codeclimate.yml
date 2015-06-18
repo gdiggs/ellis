@@ -1,7 +1,7 @@
 engines:
   rubocop:
     enabled: false
-  csslint:
+  eslint:
     enabled: true
 exclude_paths:
   - "Gemfile*"

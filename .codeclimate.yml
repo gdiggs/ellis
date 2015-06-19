@@ -11,3 +11,5 @@ ratings:
   paths:
     - "app/**"
     - Gemfile.lock
+exclude_paths:
+  - "vendor/**"

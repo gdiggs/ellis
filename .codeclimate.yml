@@ -2,7 +2,7 @@ engines:
   rubocop:
     enabled: true
   eslint:
-    enabled: true
+    enabled: false
   csslint:
     enabled: false
   bundler-audit:

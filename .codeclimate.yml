@@ -4,7 +4,7 @@ engines:
   eslint:
     enabled: true
   csslint:
-    enabled: false
+    enabled: true
   bundler-audit:
     enabled: true
 ratings:

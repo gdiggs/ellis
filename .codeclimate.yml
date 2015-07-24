@@ -12,5 +12,6 @@ ratings:
     - "app/**/*"
     - Gemfile.lock
 exclude_paths:
+  - "app/foo.rb"
   - "**.ru"
   - "vendor/**"

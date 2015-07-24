@@ -2,6 +2,8 @@
 
 Rails app to keep a catalog of anything
 
+nonesense bump
+
 ## Requirements
 
 * Postgres (`brew install postgres` / `sudo apt-get install postgresql`)

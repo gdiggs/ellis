@@ -18,6 +18,7 @@ Rails app to keep a catalog of anything
 Then update the omniauth initializer with your app keys, set up the database.yml file, and run `rails server`.
 
 ## License
+
 ### The MIT License (MIT)
 Copyright (c) 2012 Gordon Diggs
 

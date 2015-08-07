@@ -10,4 +10,9 @@ class User < ActiveRecord::Base
 
     user
   end
+
+  def test
+    "Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door."
+  end
 end

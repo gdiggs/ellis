@@ -7,6 +7,7 @@ ENVIRONMENTS = {
 }
 
 namespace :deploy do
+  $sup = true
   ENVIRONMENTS.keys.each do |env|
     desc "Deploy to #{env}"
     task env do

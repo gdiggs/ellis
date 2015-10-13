@@ -1,5 +1,9 @@
 class Foo
   def hi
-    "asdfasdf"              
+    "asdfasdf"
+  end
+
+  def hi
+    "asdfasdf"
   end
 end

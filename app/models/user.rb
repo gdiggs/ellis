@@ -10,4 +10,32 @@ class User < ActiveRecord::Base
 
     user
   end
+
+  def test
+    "Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door."
+  end
+
+  def duplication(string=nil)
+    "Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door."
+  end
+
+
+  def issue_here(args={})
+    unless args[:test]
+      puts "Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.
+    Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.
+       Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.
+       Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.
+       Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.
+       Once upon a midnight dreary, while I pondered weak and weary over many a quaint and curious volume of forgotten lore,
+    while I nodded nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door."
+    end
+  end
 end

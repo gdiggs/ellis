@@ -1,14 +1,6 @@
 engines:
   rubocop:
     enabled: true
-  eslint:
-    enabled: true
-  bundler-audit:
-    enabled: true
-  csslint:
-    enabled: true
-  fixme:
-    enabled: true
 ratings:
   paths:
     - "app/**/*"

@@ -9,8 +9,6 @@ engines:
     enabled: true
   fixme:
     enabled: true
-  brakeman:
-    enabled: true
 ratings:
   paths:
     - "app/**/*"
